@@ -1,5 +1,17 @@
 # SQL_task5
 
+-----------------------------------------------------------------------------------------------------
+
+INNER JOIN: Only shows customers who made orders (Alice, Bob)
+
+LEFT JOIN: Shows all customers; Charlie and David will have NULL orders
+
+RIGHT JOIN: Shows all orders; order 104 will show NULL for customer (no matching customer)
+
+FULL JOIN: Combines both unmatched customers and unmatched orders
+
+------------------------------------------------------------------------------------------------------
+
 -- DROP TABLES IF THEY EXIST (to avoid errors on re-run)
 DROP TABLE IF EXISTS Orders;
 DROP TABLE IF EXISTS Customers;
